@@ -1,0 +1,266 @@
+{
+  "project": {
+    "title": "小鲸鱼的信",
+    "lang": "zh",
+    "caption_font": "OriginalDiaryHand",
+    "mode": "speed",
+    "images_per_scene": 1,
+    "derive_bw": "local",
+    "enable_detail": false,
+    "gen_size": 1024,
+    "export_size": [
+      1080,
+      1440
+    ],
+    "ratio": "3:4",
+    "width": 1080,
+    "height": 1440,
+    "fps": 30,
+    "transition": "cut",
+    "transition_sec": 0.7,
+    "style_id": "nordic-gouache-storybook",
+    "style_name": "北欧低饱和水粉绘本",
+    "style_library_version": 1,
+    "style_fingerprint": "9d7b7712b4946be5",
+    "style_lock": "北欧儿童绘本的低饱和水粉画，画在有细腻牙口的暖白纸上。人物用简化圆钝形和很小的点眼，动作朴素自然；轮廓不必完全描黑，形状边缘由干刷水粉自然形成。\n以丹宁蓝、芥末黄、砖橙、鼠尾草绿和暖灰为有限色板，颜料哑光、略有颗粒和擦白。场景只保留少数平面化家具、植物或自然物，构图安静，有大量暖白负空间。\n不要高饱和、亮面数字渐变、复杂透视、动漫大眼、厚黑描边、3D 或商业矢量插画。",
+    "character_lock": "主角是一只圆钝的小鲸鱼：丹宁蓝灰的背、浅白肚皮、很小的黑点眼睛；配角是白色小海鸥和穿芥末黄雨衣的短发女孩。所有角色在全部场景保持同一造型、比例与配色；不得添加原文未提及的人物、道具或文字",
+    "audio": {
+      "voiceover": "post",
+      "bgm": "optional_bed_only",
+      "bgm_follows_text": false
+    }
+  },
+  "scenes": [
+    {
+      "id": "01",
+      "duration_sec": 5.3,
+      "text": "一只小鲸鱼住在很深很静的海\n里。",
+      "narration": "一只小鲸鱼住在很深很静的海里。",
+      "visual": "使用“北欧低饱和水粉绘本”绘制一个单一、清楚、可画的故事场景：一只小鲸鱼住在很深很静的海里。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "低饱和丹宁蓝、芥末黄、砖橙、鼠尾草绿、暖灰；干刷水粉与暖白纸纹。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/小鲸鱼的信-4c3669b4/01_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/小鲸鱼的信-4c3669b4/01_color.png"
+      }
+    },
+    {
+      "id": "02",
+      "duration_sec": 5.3,
+      "text": "它每天浮上水面，\n看远远的船经过。",
+      "narration": "它每天浮上水面，看远远的船经过。",
+      "visual": "使用“北欧低饱和水粉绘本”绘制一个单一、清楚、可画的故事场景：它每天浮上水面，看远远的船经过。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "低饱和丹宁蓝、芥末黄、砖橙、鼠尾草绿、暖灰；干刷水粉与暖白纸纹。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/小鲸鱼的信-4c3669b4/02_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/小鲸鱼的信-4c3669b4/02_color.png"
+      }
+    },
+    {
+      "id": "03",
+      "duration_sec": 5.4,
+      "text": "船上的灯一盏一盏亮起来，\n像会走的星星。",
+      "narration": "船上的灯一盏一盏亮起来，像会走的星星。",
+      "visual": "使用“北欧低饱和水粉绘本”绘制一个单一、清楚、可画的故事场景：船上的灯一盏一盏亮起来，像会走的星星。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "低饱和丹宁蓝、芥末黄、砖橙、鼠尾草绿、暖灰；干刷水粉与暖白纸纹。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/小鲸鱼的信-4c3669b4/03_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/小鲸鱼的信-4c3669b4/03_color.png"
+      }
+    },
+    {
+      "id": "04",
+      "duration_sec": 5.5,
+      "text": "小鲸鱼很想收到一封信，\n可海面上什么也没有。",
+      "narration": "小鲸鱼很想收到一封信，可海面上什么也没有。",
+      "visual": "使用“北欧低饱和水粉绘本”绘制一个单一、清楚、可画的故事场景：小鲸鱼很想收到一封信，可海面上什么也没有。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "低饱和丹宁蓝、芥末黄、砖橙、鼠尾草绿、暖灰；干刷水粉与暖白纸纹。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/小鲸鱼的信-4c3669b4/04_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/小鲸鱼的信-4c3669b4/04_color.png"
+      }
+    },
+    {
+      "id": "05",
+      "duration_sec": 5.5,
+      "text": "它朝天空唱了一支歌，\n声音顺着洋流漂出去。",
+      "narration": "它朝天空唱了一支歌，声音顺着洋流漂出去。",
+      "visual": "使用“北欧低饱和水粉绘本”绘制一个单一、清楚、可画的故事场景：它朝天空唱了一支歌，声音顺着洋流漂出去。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "低饱和丹宁蓝、芥末黄、砖橙、鼠尾草绿、暖灰；干刷水粉与暖白纸纹。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/小鲸鱼的信-4c3669b4/05_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/小鲸鱼的信-4c3669b4/05_color.png"
+      }
+    },
+    {
+      "id": "06",
+      "duration_sec": 5.4,
+      "text": "一只海鸥听见了，\n叼着白色羽毛落在水上。",
+      "narration": "一只海鸥听见了，叼着白色羽毛落在水上。",
+      "visual": "使用“北欧低饱和水粉绘本”绘制一个单一、清楚、可画的故事场景：一只海鸥听见了，叼着白色羽毛落在水上。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "低饱和丹宁蓝、芥末黄、砖橙、鼠尾草绿、暖灰；干刷水粉与暖白纸纹。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/小鲸鱼的信-4c3669b4/06_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/小鲸鱼的信-4c3669b4/06_color.png"
+      }
+    },
+    {
+      "id": "07",
+      "duration_sec": 5.4,
+      "text": "小鲸鱼把羽毛当作信纸，\n轻轻放进浪里。",
+      "narration": "小鲸鱼把羽毛当作信纸，轻轻放进浪里。",
+      "visual": "使用“北欧低饱和水粉绘本”绘制一个单一、清楚、可画的故事场景：小鲸鱼把羽毛当作信纸，轻轻放进浪里。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "低饱和丹宁蓝、芥末黄、砖橙、鼠尾草绿、暖灰；干刷水粉与暖白纸纹。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/小鲸鱼的信-4c3669b4/07_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/小鲸鱼的信-4c3669b4/07_color.png"
+      }
+    },
+    {
+      "id": "08",
+      "duration_sec": 5.4,
+      "text": "潮水带着它，\n一直漂到岸边的一块礁石上。",
+      "narration": "潮水带着它，一直漂到岸边的一块礁石上。",
+      "visual": "使用“北欧低饱和水粉绘本”绘制一个单一、清楚、可画的故事场景：潮水带着它，一直漂到岸边的一块礁石上。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "低饱和丹宁蓝、芥末黄、砖橙、鼠尾草绿、暖灰；干刷水粉与暖白纸纹。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/小鲸鱼的信-4c3669b4/08_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/小鲸鱼的信-4c3669b4/08_color.png"
+      }
+    },
+    {
+      "id": "09",
+      "duration_sec": 5.4,
+      "text": "一个女孩捡起羽毛，\n看见海水写下的字。",
+      "narration": "一个女孩捡起羽毛，看见海水写下的字。",
+      "visual": "使用“北欧低饱和水粉绘本”绘制一个单一、清楚、可画的故事场景：一个女孩捡起羽毛，看见海水写下的字。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "低饱和丹宁蓝、芥末黄、砖橙、鼠尾草绿、暖灰；干刷水粉与暖白纸纹。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/小鲸鱼的信-4c3669b4/09_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/小鲸鱼的信-4c3669b4/09_color.png"
+      }
+    },
+    {
+      "id": "10",
+      "duration_sec": 5.5,
+      "text": "她也在羽毛上写了一句，\n折成小船放回海里。",
+      "narration": "她也在羽毛上写了一句，折成小船放回海里。",
+      "visual": "使用“北欧低饱和水粉绘本”绘制一个单一、清楚、可画的故事场景：她也在羽毛上写了一句，折成小船放回海里。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "低饱和丹宁蓝、芥末黄、砖橙、鼠尾草绿、暖灰；干刷水粉与暖白纸纹。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/小鲸鱼的信-4c3669b4/10_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/小鲸鱼的信-4c3669b4/10_color.png"
+      }
+    },
+    {
+      "id": "11",
+      "duration_sec": 5.5,
+      "text": "从那以后，小鲸鱼每天都浮上\n来等一只小船。",
+      "narration": "从那以后，小鲸鱼每天都浮上来等一只小船。",
+      "visual": "使用“北欧低饱和水粉绘本”绘制一个单一、清楚、可画的故事场景：从那以后，小鲸鱼每天都浮上来等一只小船。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "低饱和丹宁蓝、芥末黄、砖橙、鼠尾草绿、暖灰；干刷水粉与暖白纸纹。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/小鲸鱼的信-4c3669b4/11_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/小鲸鱼的信-4c3669b4/11_color.png"
+      }
+    }
+  ]
+}

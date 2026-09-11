@@ -1,0 +1,42 @@
+{
+  "lang": "en",
+  "locale": "en-US",
+  "voice": "en-US-AvaMultilingualNeural",
+  "pitch": "-2Hz",
+  "font": "OriginalDiaryHand",
+  "title": "The Dandelion Post Office",
+  "lines": {
+    "01": {
+      "text": "In spring, the little rabbit\nfound a glowing dandelion seed\nby the field path.",
+      "narration": "In spring, the little rabbit found a glowing dandelion seed by the field path."
+    },
+    "02": {
+      "text": "The seed whispered\nthat it was a letter\nfrom far away.",
+      "narration": "The seed whispered that it was a letter from far away."
+    },
+    "03": {
+      "text": "The rabbit planted it\nbelow the window and\nwatered it every day.",
+      "narration": "The rabbit planted it below the window, watered it every day, and told it secrets."
+    },
+    "04": {
+      "text": "One early summer evening,\nthe dandelion bloomed\ninto a fluffy little lamp.",
+      "narration": "One early summer evening, the dandelion bloomed into a fluffy little lamp."
+    },
+    "05": {
+      "text": "Then the wind came,\nand the little seeds flew\ninto the sky like stars.",
+      "narration": "Then the wind came, and the little seeds flew into the sky like stars."
+    },
+    "06": {
+      "text": "The rabbit ran after them,\nall the way up\nthe little hill.",
+      "narration": "The rabbit ran after them, all the way up the little hill."
+    },
+    "07": {
+      "text": "The best letter\nbrings light to more people.",
+      "narration": "The best letter is the one that brings light to more people."
+    },
+    "08": {
+      "text": "The next spring, the whole\nhillside lit up with\ntiny dandelion lamps.",
+      "narration": "The next spring, the whole hillside lit up with tiny dandelion lamps."
+    }
+  }
+}

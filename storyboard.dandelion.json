@@ -1,0 +1,203 @@
+{
+  "project": {
+    "title": "蒲公英邮局",
+    "lang": "zh",
+    "caption_font": "OriginalDiaryHand",
+    "mode": "speed",
+    "images_per_scene": 1,
+    "derive_bw": "local",
+    "enable_detail": false,
+    "gen_size": 1024,
+    "export_size": [
+      1080,
+      1440
+    ],
+    "ratio": "3:4",
+    "width": 1080,
+    "height": 1440,
+    "fps": 30,
+    "transition": "cut",
+    "transition_sec": 0.7,
+    "style_id": "sunlit-storybook",
+    "style_name": "暖光童画绘本",
+    "style_library_version": 1,
+    "style_fingerprint": "086f8915c5fa7c82",
+    "style_lock": "现代动画前期视觉开发式的暖光童画，用柔软哑光水粉和干擦笔触画在浅色纸上。角色由大而柔软的形状组成，表情清楚，头发或毛发是一团团宽软笔触并带少量飞丝。\n画面以粉蓝、奶黄、柔橙和青绿形成温和互补，暖光从一侧包住角色；背景只画几块松散色斑和必要场景线索，四周保留明显白纸与未画完的概念稿气息。\n不要尖锐动漫发束、塑料高光、3D、写实五官、满幅背景、硬矢量边缘或过度精修。",
+    "character_lock": "重复出现的主角须保持同一张脸、发型、年龄、服装配色和身体比例；具体人物身份以故事原文为准；不得添加原文未提及的配角、道具或文字",
+    "audio": {
+      "voiceover": "post",
+      "bgm": "optional_bed_only",
+      "bgm_follows_text": false
+    }
+  },
+  "scenes": [
+    {
+      "id": "01",
+      "duration_sec": 5.5,
+      "text": "春天，小兔在田埂边捡到一颗\n发光的蒲公英种子。",
+      "narration": "春天，小兔在田埂边捡到一颗发光的蒲公英种子。",
+      "visual": "使用“暖光童画绘本”绘制一个单一、清楚、可画的故事场景：春天，小兔在田埂边捡到一颗发光的蒲公英种子。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "粉蓝、奶黄、柔橙、少量青绿；暖边光、柔软水粉笔触，四周保留白纸。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/手绘故事-4f3fb51a/01_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/手绘故事-4f3fb51a/01_color.png"
+      }
+    },
+    {
+      "id": "02",
+      "duration_sec": 5.4,
+      "text": "种子悄悄说，\n它是一封从远方飘来的信。",
+      "narration": "种子悄悄说，它是一封从远方飘来的信。",
+      "visual": "使用“暖光童画绘本”绘制一个单一、清楚、可画的故事场景：种子悄悄说，它是一封从远方飘来的信。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "粉蓝、奶黄、柔橙、少量青绿；暖边光、柔软水粉笔触，四周保留白纸。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/手绘故事-4f3fb51a/02_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/手绘故事-4f3fb51a/02_color.png"
+      }
+    },
+    {
+      "id": "03",
+      "duration_sec": 5.5,
+      "text": "小兔把它种在窗台下，\n每天浇水，说悄悄话。",
+      "narration": "小兔把它种在窗台下，每天浇水，说悄悄话。",
+      "visual": "使用“暖光童画绘本”绘制一个单一、清楚、可画的故事场景：小兔把它种在窗台下，每天浇水，说悄悄话。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "粉蓝、奶黄、柔橙、少量青绿；暖边光、柔软水粉笔触，四周保留白纸。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/手绘故事-4f3fb51a/03_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/手绘故事-4f3fb51a/03_color.png"
+      }
+    },
+    {
+      "id": "04",
+      "duration_sec": 6,
+      "text": "初夏的傍晚，蒲公英\n开出了一朵毛茸茸的小灯。",
+      "narration": "初夏的傍晚，蒲公英开出了一朵毛茸茸的小灯。",
+      "visual": "使用“暖光童画绘本”绘制一个单一、清楚、可画的故事场景：初夏的傍晚，蒲公英开出了一朵毛茸茸的小灯。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "粉蓝、奶黄、柔橙、少量青绿；暖边光、柔软水粉笔触，四周保留白纸。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/手绘故事-4f3fb51a/04_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/手绘故事-4f3fb51a/04_color.png"
+      }
+    },
+    {
+      "id": "05",
+      "duration_sec": 5.5,
+      "text": "风来了，小小的种子们\n飞向天空，像满天的星星。",
+      "narration": "风来了，小小的种子们飞向天空，像满天的星星。",
+      "visual": "使用“暖光童画绘本”绘制一个单一、清楚、可画的故事场景：风来了，小小的种子们飞向天空，像满天的星星。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "粉蓝、奶黄、柔橙、少量青绿；暖边光、柔软水粉笔触，四周保留白纸。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/手绘故事-4f3fb51a/05_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/手绘故事-4f3fb51a/05_color.png"
+      }
+    },
+    {
+      "id": "06",
+      "duration_sec": 5.4,
+      "text": "小兔追着它们跑，\n一直跑到了小山坡上。",
+      "narration": "小兔追着它们跑，一直跑到了小山坡上。",
+      "visual": "使用“暖光童画绘本”绘制一个单一、清楚、可画的故事场景：小兔追着它们跑，一直跑到了小山坡上。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "粉蓝、奶黄、柔橙、少量青绿；暖边光、柔软水粉笔触，四周保留白纸。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/手绘故事-4f3fb51a/06_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/手绘故事-4f3fb51a/06_color.png"
+      }
+    },
+    {
+      "id": "07",
+      "duration_sec": 5.5,
+      "text": "它忽然明白，最好的信，\n是让更多人收到光。",
+      "narration": "它忽然明白，最好的信，是让更多人收到光。",
+      "visual": "使用“暖光童画绘本”绘制一个单一、清楚、可画的故事场景：它忽然明白，最好的信，是让更多人收到光。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "粉蓝、奶黄、柔橙、少量青绿；暖边光、柔软水粉笔触，四周保留白纸。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/手绘故事-4f3fb51a/07_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/手绘故事-4f3fb51a/07_color.png"
+      }
+    },
+    {
+      "id": "08",
+      "duration_sec": 6,
+      "text": "第二年春天，整片山坡\n都亮起了蒲公英的小灯。",
+      "narration": "第二年春天，整片山坡都亮起了蒲公英的小灯。",
+      "visual": "使用“暖光童画绘本”绘制一个单一、清楚、可画的故事场景：第二年春天，整片山坡都亮起了蒲公英的小灯。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "粉蓝、奶黄、柔橙、少量青绿；暖边光、柔软水粉笔触，四周保留白纸。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/手绘故事-4f3fb51a/08_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/手绘故事-4f3fb51a/08_color.png"
+      }
+    }
+  ]
+}

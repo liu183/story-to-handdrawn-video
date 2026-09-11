@@ -14,3 +14,8 @@ uploaded-pages.json
 *.zip
 .DS_Store
 .npm-cache/
+.venv/
+gen_tmp/
+__pycache__/
+*.pyc
+.git-msg
