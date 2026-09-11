@@ -187,8 +187,10 @@ Skill 的完整行为约定见 [skill-package/story-to-handdrawn-video/SKILL.md]
 ├── examples/               # 示例故事文本
 ├── references/             # 20 风格配方、默认风格参考板与示例图库
 ├── public/                 # 字体与素材(generated/ 为运行时产物)
+├── l10n/                   # 各语种字幕断行、旁白、音色与字体
 ├── storyboard.json         # 默认文本故事分镜示例
 ├── storyboard.uploaded.json # 上传图片分镜示例
+├── storyboard.<story>.json # 备用话本分镜(如 storyboard.dandelion.json)
 └── DESIGN.md               # 设计说明
 ```
 
@@ -196,7 +198,29 @@ Skill 的完整行为约定见 [skill-package/story-to-handdrawn-video/SKILL.md]
 
 ### 字体
 
-项目使用随附的站酷马善政毛笔字体(Ma Shan Zheng),许可证见 [public/fonts/OFL-MaShanZheng.txt](public/fonts/OFL-MaShanZheng.txt)(SIL Open Font License)。
+字幕按语种自动切换字体,四支字体均随仓库分发(SIL Open Font License,许可证文件与字体同目录):
+
+| 语种 | 字体 | 许可证 |
+| --- | --- | --- |
+| 简体中文 / 英文 | Ma Shan Zheng | [OFL-MaShanZheng.txt](public/fonts/OFL-MaShanZheng.txt) |
+| 繁体中文 / 粤语 | Iansui | [Iansui-OFL.txt](public/fonts/Iansui-OFL.txt) |
+| 日语 | Klee One | [KleeOne-OFL.txt](public/fonts/KleeOne-OFL.txt) |
+| 韩语 | Gaegu | [Gaegu-OFL.txt](public/fonts/Gaegu-OFL.txt) |
+
+### 多语言成片
+
+同一份分镜可以出多个语种的成片。字幕在渲染时按语种绘制、旁白按语种合成,所以每个语种都要独立渲染一次——只换配音会留下原语言的字幕。
+
+```bash
+python scripts/multilingual_video.py --story dandelion                     # 渲染 + 配音
+python scripts/multilingual_video.py --story dandelion --mode prepare      # 只生成各语种分镜
+python scripts/multilingual_video.py --story dandelion --langs ja --mode render
+```
+
+- `storyboard.<story>.json` 是时间线与画面的唯一基准;`l10n/<story>.<lang>.json` 提供该语种的字幕断行、旁白文本、音色与字体。
+- 产物按话本归档:`out/<标题>/<标题>-<语种>.mp4`,中间产物在同目录的 `silent/`、`editions/`、`voiceover/<语种>/`。
+- `--mode` 取值:`prepare` 只写分镜,`render` 出无声画面,`voice` 配音压制成片,`all` 跑完整流程(默认)。
+- 默认语种 `zh,yue,ja,ko,en`;新增语种只需补一份 `l10n/<story>.<lang>.json` 并确认字体覆盖该语言的字符。
 
 ### 贡献
 
@@ -345,6 +369,32 @@ The machine-readable recipes live in [references/handdrawn-style-library.json](r
 | Uploaded images | preview | `out/uploaded_picture_silent-preview.mp4` |
 
 Final 1080×1440, preview 720×960, H.264, silent. The full behavior contract lives in [SKILL.md](skill-package/story-to-handdrawn-video/SKILL.md).
+
+### Fonts
+
+Captions pick their font per language, and all four ship with the repo under the SIL Open Font License (each licence file sits next to its font):
+
+| Language | Font | Licence |
+| --- | --- | --- |
+| Simplified Chinese / English | Ma Shan Zheng | [OFL-MaShanZheng.txt](public/fonts/OFL-MaShanZheng.txt) |
+| Traditional Chinese / Cantonese | Iansui | [Iansui-OFL.txt](public/fonts/Iansui-OFL.txt) |
+| Japanese | Klee One | [KleeOne-OFL.txt](public/fonts/KleeOne-OFL.txt) |
+| Korean | Gaegu | [Gaegu-OFL.txt](public/fonts/Gaegu-OFL.txt) |
+
+### Multilingual editions
+
+One storyboard can ship in several languages. Captions are drawn at render time and narration is synthesised per language, so each language needs its own render — dubbing alone would leave the original words on screen.
+
+```bash
+python scripts/multilingual_video.py --story dandelion                     # render + dub
+python scripts/multilingual_video.py --story dandelion --mode prepare      # storyboards only
+python scripts/multilingual_video.py --story dandelion --langs ja --mode render
+```
+
+- `storyboard.<story>.json` is the single source of truth for timing and artwork; `l10n/<story>.<lang>.json` supplies that language's caption line breaks, narration, voice and font.
+- Artefacts are filed per story: `out/<title>/<title>-<lang>.mp4`, with intermediates in `silent/`, `editions/` and `voiceover/<lang>/` alongside it.
+- `--mode` is one of `prepare` (storyboards only), `render` (silent picture), `voice` (dub and mux) or `all` (everything, the default).
+- Default languages are `zh,yue,ja,ko,en`. Adding one means writing `l10n/<story>.<lang>.json` and checking the font covers that language's characters.
 
 ### License
 

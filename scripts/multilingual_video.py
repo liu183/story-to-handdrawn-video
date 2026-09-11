@@ -12,7 +12,8 @@ The captions are drawn by Remotion at render time, so an edition with a differen
 script needs its own render — the dub alone would leave the words on screen in the
 original language.
 
-    python scripts/multilingual_video.py --story dandelion
+    python scripts/multilingual_video.py --story dandelion                     # render + dub
+    python scripts/multilingual_video.py --story dandelion --mode prepare      # storyboards only
     python scripts/multilingual_video.py --story dandelion --langs ja --mode render
 """
 
@@ -98,7 +99,7 @@ def build_one(story: str, lang: str, mode: str, force: bool) -> None:
     write_json(edition_path, edition)
     write_json(props_path, {"storyboard": edition})
 
-    if mode in ("prepare", "render", "all"):
+    if mode in ("render", "all"):
         if silent_path.exists() and not force:
             print(f"  silent exists, reuse: {silent_path.relative_to(ROOT)}", flush=True)
         else:
@@ -129,7 +130,14 @@ def build_one(story: str, lang: str, mode: str, force: bool) -> None:
             command.append("--force")
         run(command)
 
-    print(f"  -> {final_path.relative_to(ROOT)}", flush=True)
+    # Report what this run actually produced — existence on disk says nothing about
+    # whether this mode touched it.
+    if mode == "prepare":
+        print(f"  -> edition: {edition_path.relative_to(ROOT)}", flush=True)
+    if mode in ("render", "all"):
+        print(f"  -> silent:  {silent_path.relative_to(ROOT)}", flush=True)
+    if mode in ("voice", "all"):
+        print(f"  -> final:   {final_path.relative_to(ROOT)}", flush=True)
 
 
 def main() -> int:
@@ -153,7 +161,7 @@ def main() -> int:
             + " — supported: " + ", ".join(DEFAULT_LANGS)
         )
 
-    if shutil.which("npx") is None and args.mode != "voice":
+    if shutil.which("npx") is None and args.mode not in ("prepare", "voice"):
         raise SystemExit("npx not found on PATH; needed to render")
 
     for lang in langs:
