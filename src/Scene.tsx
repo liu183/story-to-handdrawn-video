@@ -8,7 +8,10 @@ import {LayerWipe} from './LayerWipe';
 import {TextWipe} from './TextWipe';
 import type {SceneData} from './types';
 
-export const Scene: React.FC<{scene: SceneData}> = ({scene}) => {
+export const Scene: React.FC<{scene: SceneData; fontFamily?: string}> = ({
+  scene,
+  fontFamily,
+}) => {
   const {fps} = useVideoConfig();
   const total = Math.round(scene.duration_sec * fps);
   const at = (ratio: number) => Math.round(total * ratio);
@@ -71,6 +74,7 @@ export const Scene: React.FC<{scene: SceneData}> = ({scene}) => {
         textAsset={scene.assets.text_image}
         startFrame={0}
         durationFrames={at(speedMode ? 0.22 : 0.16)}
+        fontFamily={fontFamily}
       />
 
     </AbsoluteFill>

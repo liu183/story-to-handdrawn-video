@@ -25,6 +25,10 @@ export type SceneData = {
 export type Storyboard = {
   project: {
     title: string;
+    /** Edition language tag, e.g. `zh`, `yue`, `ja`, `ko`, `en`. */
+    lang?: string;
+    /** CSS family used for the on-screen captions of this edition. */
+    caption_font?: string;
     mode?: 'speed' | 'quality';
     images_per_scene?: number;
     derive_bw?: 'local' | 'ai';

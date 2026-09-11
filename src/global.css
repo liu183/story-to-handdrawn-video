@@ -1,6 +1,37 @@
+/*
+ * Caption faces, one per script.
+ *
+ * MaShanZheng covers Simplified Chinese + Latin only (7015 codepoints), so every
+ * other edition needs its own hand-drawn face or the captions render as tofu.
+ * All four are OFL; the licence texts sit next to the .ttf files in public/fonts.
+ */
 @font-face {
   font-family: 'OriginalDiaryHand';
   src: url('../public/fonts/MaShanZheng-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'KleeOneHand';
+  src: url('../public/fonts/KleeOne-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'GaeguHand';
+  src: url('../public/fonts/Gaegu-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'IansuiHand';
+  src: url('../public/fonts/Iansui-Regular.ttf') format('truetype');
   font-style: normal;
   font-weight: 400;
   font-display: block;

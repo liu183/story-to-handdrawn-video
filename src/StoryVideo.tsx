@@ -15,7 +15,8 @@ const PageFlipScene: React.FC<{
   durationInFrames: number;
   transitionFrames: number;
   isLast: boolean;
-}> = ({scene, durationInFrames, transitionFrames, isLast}) => {
+  fontFamily?: string;
+}> = ({scene, durationInFrames, transitionFrames, isLast, fontFamily}) => {
   const frame = useCurrentFrame();
   const {width, height} = useVideoConfig();
   const flipProgress = isLast
@@ -86,7 +87,7 @@ const PageFlipScene: React.FC<{
           backgroundColor: '#fff',
         }}
       >
-        <Scene scene={scene} />
+        <Scene scene={scene} fontFamily={fontFamily} />
       </AbsoluteFill>
       {!isLast && flipProgress > 0 ? (
         <AbsoluteFill
@@ -99,7 +100,7 @@ const PageFlipScene: React.FC<{
             opacity: 0.3 + curlStrength * 0.32,
           }}
         >
-          <Scene scene={scene} />
+          <Scene scene={scene} fontFamily={fontFamily} />
         </AbsoluteFill>
       ) : null}
       {!isLast && flipProgress > 0 ? (
@@ -184,7 +185,7 @@ const CutStoryVideo: React.FC<{value: Storyboard}> = ({value}) => (
         )}
         name={`Scene ${scene.id}`}
       >
-        <Scene scene={scene} />
+        <Scene scene={scene} fontFamily={value.project.caption_font} />
       </Series.Sequence>
     ))}
   </Series>
@@ -217,6 +218,7 @@ const PageFlipStoryVideo: React.FC<{value: Storyboard}> = ({value}) => {
               durationInFrames={durationInFrames}
               transitionFrames={transitionFrames}
               isLast={index === value.scenes.length - 1}
+              fontFamily={value.project.caption_font}
             />
           </Sequence>
         );
