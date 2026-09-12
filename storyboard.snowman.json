@@ -1,0 +1,243 @@
+{
+  "project": {
+    "title": "雪人要去南方",
+    "mode": "speed",
+    "images_per_scene": 1,
+    "derive_bw": "local",
+    "enable_detail": false,
+    "gen_size": 1024,
+    "export_size": [
+      1080,
+      1440
+    ],
+    "ratio": "3:4",
+    "width": 1080,
+    "height": 1440,
+    "fps": 30,
+    "transition": "cut",
+    "transition_sec": 0.7,
+    "style_id": "warm-flat-storybook",
+    "style_name": "暖色几何扁平绘本",
+    "style_library_version": 1,
+    "style_fingerprint": "c7c599b68c744ef2",
+    "style_lock": "当代暖色扁平绘本，用少量大而圆润的几何色块构成人物和道具。形状主要靠色彩相接，不画连续外轮廓；只在五官、手指和少量发丝处使用极细深藏青线。\n人物不是 Q 版：成人可有长颈、细长肢体、窄椭圆脸或宽胶囊躯干，动作弧线柔软；阴影只允许每个大色块一块更深的同色色形，不做渐变。主体集中在中下部，约七成暖白留白。\n严格使用深藏青、雾蓝、珊瑚橙、金橙、暖桃肤色和暖白；不要企业矢量小人、圆脸萌娃、厚描边、3D、光泽、复杂背景或额外色相。",
+    "character_lock": "重复出现的主角须保持同一张脸、发型、年龄、服装配色和身体比例；具体人物身份以故事原文为准；不得添加原文未提及的配角、道具或文字",
+    "audio": {
+      "voiceover": "post",
+      "bgm": "optional_bed_only",
+      "bgm_follows_text": false
+    }
+  },
+  "scenes": [
+    {
+      "id": "01",
+      "duration_sec": 5.4,
+      "text": "下了一整夜的雪，\n院子里站着一个雪人。",
+      "narration": "下了一整夜的雪，院子里站着一个雪人。",
+      "visual": "使用“暖色几何扁平绘本”绘制一个单一、清楚、可画的故事场景：下了一整夜的雪，院子里站着一个雪人。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "严格限定深藏青、雾蓝、珊瑚橙、金橙、暖桃和暖白；大块平涂，每块至多一个硬边同色阴影。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/雪人要去南方-b63e16e9/01_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/雪人要去南方-b63e16e9/01_color.png"
+      }
+    },
+    {
+      "id": "02",
+      "duration_sec": 5.3,
+      "text": "它没有名字，\n也没有见过别的季节。",
+      "narration": "它没有名字，也没有见过别的季节。",
+      "visual": "使用“暖色几何扁平绘本”绘制一个单一、清楚、可画的故事场景：它没有名字，也没有见过别的季节。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "严格限定深藏青、雾蓝、珊瑚橙、金橙、暖桃和暖白；大块平涂，每块至多一个硬边同色阴影。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/雪人要去南方-b63e16e9/02_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/雪人要去南方-b63e16e9/02_color.png"
+      }
+    },
+    {
+      "id": "03",
+      "duration_sec": 5.4,
+      "text": "一只小雀落在它肩上，\n讲起南方的海。",
+      "narration": "一只小雀落在它肩上，讲起南方的海。",
+      "visual": "使用“暖色几何扁平绘本”绘制一个单一、清楚、可画的故事场景：一只小雀落在它肩上，讲起南方的海。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "严格限定深藏青、雾蓝、珊瑚橙、金橙、暖桃和暖白；大块平涂，每块至多一个硬边同色阴影。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/雪人要去南方-b63e16e9/03_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/雪人要去南方-b63e16e9/03_color.png"
+      }
+    },
+    {
+      "id": "04",
+      "duration_sec": 5.3,
+      "text": "雪人第一次听说，\n有一种水是暖的。",
+      "narration": "雪人第一次听说，有一种水是暖的。",
+      "visual": "使用“暖色几何扁平绘本”绘制一个单一、清楚、可画的故事场景：雪人第一次听说，有一种水是暖的。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "严格限定深藏青、雾蓝、珊瑚橙、金橙、暖桃和暖白；大块平涂，每块至多一个硬边同色阴影。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/雪人要去南方-b63e16e9/04_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/雪人要去南方-b63e16e9/04_color.png"
+      }
+    },
+    {
+      "id": "05",
+      "duration_sec": 5.3,
+      "text": "它想去看海，\n可它一走快就会化掉。",
+      "narration": "它想去看海，可它一走快就会化掉。",
+      "visual": "使用“暖色几何扁平绘本”绘制一个单一、清楚、可画的故事场景：它想去看海，可它一走快就会化掉。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "严格限定深藏青、雾蓝、珊瑚橙、金橙、暖桃和暖白；大块平涂，每块至多一个硬边同色阴影。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/雪人要去南方-b63e16e9/05_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/雪人要去南方-b63e16e9/05_color.png"
+      }
+    },
+    {
+      "id": "06",
+      "duration_sec": 5.3,
+      "text": "小雀想了想，说：\n那我替你去看。",
+      "narration": "小雀想了想，说：那我替你去看。",
+      "visual": "使用“暖色几何扁平绘本”绘制一个单一、清楚、可画的故事场景：小雀想了想，说：那我替你去看。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "严格限定深藏青、雾蓝、珊瑚橙、金橙、暖桃和暖白；大块平涂，每块至多一个硬边同色阴影。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/雪人要去南方-b63e16e9/06_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/雪人要去南方-b63e16e9/06_color.png"
+      }
+    },
+    {
+      "id": "07",
+      "duration_sec": 5.4,
+      "text": "雪人折下自己的树枝手臂，\n递给小雀。",
+      "narration": "雪人折下自己的树枝手臂，递给小雀。",
+      "visual": "使用“暖色几何扁平绘本”绘制一个单一、清楚、可画的故事场景：雪人折下自己的树枝手臂，递给小雀。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "严格限定深藏青、雾蓝、珊瑚橙、金橙、暖桃和暖白；大块平涂，每块至多一个硬边同色阴影。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/雪人要去南方-b63e16e9/07_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/雪人要去南方-b63e16e9/07_color.png"
+      }
+    },
+    {
+      "id": "08",
+      "duration_sec": 5.4,
+      "text": "天亮了，雪人矮了一截，\n还是笑着挥手。",
+      "narration": "天亮了，雪人矮了一截，还是笑着挥手。",
+      "visual": "使用“暖色几何扁平绘本”绘制一个单一、清楚、可画的故事场景：天亮了，雪人矮了一截，还是笑着挥手。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "严格限定深藏青、雾蓝、珊瑚橙、金橙、暖桃和暖白；大块平涂，每块至多一个硬边同色阴影。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/雪人要去南方-b63e16e9/08_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/雪人要去南方-b63e16e9/08_color.png"
+      }
+    },
+    {
+      "id": "09",
+      "duration_sec": 5.4,
+      "text": "春天来的时候，\n院子里只剩一顶小桶。",
+      "narration": "春天来的时候，院子里只剩一顶小桶。",
+      "visual": "使用“暖色几何扁平绘本”绘制一个单一、清楚、可画的故事场景：春天来的时候，院子里只剩一顶小桶。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "严格限定深藏青、雾蓝、珊瑚橙、金橙、暖桃和暖白；大块平涂，每块至多一个硬边同色阴影。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/雪人要去南方-b63e16e9/09_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/雪人要去南方-b63e16e9/09_color.png"
+      }
+    },
+    {
+      "id": "10",
+      "duration_sec": 5.5,
+      "text": "海边，小雀把树枝插进沙里，\n长出了一棵树。",
+      "narration": "海边，小雀把树枝插进沙里，长出了一棵树。",
+      "visual": "使用“暖色几何扁平绘本”绘制一个单一、清楚、可画的故事场景：海边，小雀把树枝插进沙里，长出了一棵树。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "严格限定深藏青、雾蓝、珊瑚橙、金橙、暖桃和暖白；大块平涂，每块至多一个硬边同色阴影。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/雪人要去南方-b63e16e9/10_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/雪人要去南方-b63e16e9/10_color.png"
+      }
+    }
+  ]
+}
