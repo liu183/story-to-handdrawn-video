@@ -1,0 +1,243 @@
+{
+  "project": {
+    "title": "嫦娥奔月",
+    "mode": "speed",
+    "images_per_scene": 1,
+    "derive_bw": "local",
+    "enable_detail": false,
+    "gen_size": 1024,
+    "export_size": [
+      1080,
+      1440
+    ],
+    "ratio": "3:4",
+    "width": 1080,
+    "height": 1440,
+    "fps": 30,
+    "transition": "cut",
+    "transition_sec": 0.7,
+    "style_id": "emotional-watercolor-sketch",
+    "style_name": "情绪叙事淡彩速写",
+    "style_library_version": 1,
+    "style_fingerprint": "acd56590867c29cc",
+    "style_lock": "白色细纹水彩纸上的情绪叙事速写。人物与关键道具用松散靛蓝铅笔或墨线勾画，保留重叠起稿线、断线和轻微抖动，不追求工整闭合。\n水彩上色非常轻薄、透明、边缘自然晕开，大部分画面保持白纸；全画只设一处柔和橙色情绪焦点，其余为靛蓝、灰蓝、淡肤色和纸白。构图像记忆片段，安静、克制、真诚。\n不要满幅上色、鲜艳多色、商业萌化、硬黑卡通描边、写实光影、复杂室内或数字水彩滤镜。",
+    "character_lock": "主角是嫦娥：长发挽髻、插一支素簪、穿淡青长衣、衣带很长；后羿是身材结实、背弓的男子。全片只有嫦娥与后羿两个人物，不得出现玉兔、蟾蜍、宫殿或其他神话人物，不得出现文字。",
+    "audio": {
+      "voiceover": "post",
+      "bgm": "optional_bed_only",
+      "bgm_follows_text": false
+    }
+  },
+  "scenes": [
+    {
+      "id": "01",
+      "duration_sec": 4.7,
+      "text": "很久以前，天上有十个太阳。",
+      "narration": "很久以前，天上有十个太阳。",
+      "visual": "使用“情绪叙事淡彩速写”绘制一个单一、清楚、可画的故事场景：很久以前，天上有十个太阳。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "靛蓝与灰蓝为主，透明淡彩和大片纸白，全画只有一处柔和暖橙重点。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/嫦娥奔月-12a645b7/01_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/嫦娥奔月-12a645b7/01_color.png"
+      }
+    },
+    {
+      "id": "02",
+      "duration_sec": 4.7,
+      "text": "后羿拉弓搭箭，射下了九个。",
+      "narration": "后羿拉弓搭箭，射下了九个。",
+      "visual": "使用“情绪叙事淡彩速写”绘制一个单一、清楚、可画的故事场景：后羿拉弓搭箭，射下了九个。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "靛蓝与灰蓝为主，透明淡彩和大片纸白，全画只有一处柔和暖橙重点。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/嫦娥奔月-12a645b7/02_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/嫦娥奔月-12a645b7/02_color.png"
+      }
+    },
+    {
+      "id": "03",
+      "duration_sec": 4.7,
+      "text": "人间重新有了风，有了四季。",
+      "narration": "人间重新有了风，有了四季。",
+      "visual": "使用“情绪叙事淡彩速写”绘制一个单一、清楚、可画的故事场景：人间重新有了风，有了四季。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "靛蓝与灰蓝为主，透明淡彩和大片纸白，全画只有一处柔和暖橙重点。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/嫦娥奔月-12a645b7/03_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/嫦娥奔月-12a645b7/03_color.png"
+      }
+    },
+    {
+      "id": "04",
+      "duration_sec": 5.3,
+      "text": "西王母送给后羿，\n一瓶不死药。",
+      "narration": "西王母送给后羿，一瓶不死药。",
+      "visual": "使用“情绪叙事淡彩速写”绘制一个单一、清楚、可画的故事场景：西王母送给后羿，一瓶不死药。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "靛蓝与灰蓝为主，透明淡彩和大片纸白，全画只有一处柔和暖橙重点。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/嫦娥奔月-12a645b7/04_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/嫦娥奔月-12a645b7/04_color.png"
+      }
+    },
+    {
+      "id": "05",
+      "duration_sec": 4.7,
+      "text": "他说要等嫦娥，一起喝下它。",
+      "narration": "他说要等嫦娥，一起喝下它。",
+      "visual": "使用“情绪叙事淡彩速写”绘制一个单一、清楚、可画的故事场景：他说要等嫦娥，一起喝下它。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "靛蓝与灰蓝为主，透明淡彩和大片纸白，全画只有一处柔和暖橙重点。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/嫦娥奔月-12a645b7/05_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/嫦娥奔月-12a645b7/05_color.png"
+      }
+    },
+    {
+      "id": "06",
+      "duration_sec": 5.3,
+      "text": "那天后羿出门，\n嫦娥独自在家。",
+      "narration": "那天后羿出门，嫦娥独自在家。",
+      "visual": "使用“情绪叙事淡彩速写”绘制一个单一、清楚、可画的故事场景：那天后羿出门，嫦娥独自在家。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "靛蓝与灰蓝为主，透明淡彩和大片纸白，全画只有一处柔和暖橙重点。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/嫦娥奔月-12a645b7/06_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/嫦娥奔月-12a645b7/06_color.png"
+      }
+    },
+    {
+      "id": "07",
+      "duration_sec": 5.3,
+      "text": "有人来抢药，\n嫦娥急得没办法。",
+      "narration": "有人来抢药，嫦娥急得没办法。",
+      "visual": "使用“情绪叙事淡彩速写”绘制一个单一、清楚、可画的故事场景：有人来抢药，嫦娥急得没办法。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "靛蓝与灰蓝为主，透明淡彩和大片纸白，全画只有一处柔和暖橙重点。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/嫦娥奔月-12a645b7/07_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/嫦娥奔月-12a645b7/07_color.png"
+      }
+    },
+    {
+      "id": "08",
+      "duration_sec": 5.3,
+      "text": "她一口吞下药，\n身子轻轻飘起。",
+      "narration": "她一口吞下药，身子轻轻飘起。",
+      "visual": "使用“情绪叙事淡彩速写”绘制一个单一、清楚、可画的故事场景：她一口吞下药，身子轻轻飘起。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "靛蓝与灰蓝为主，透明淡彩和大片纸白，全画只有一处柔和暖橙重点。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/嫦娥奔月-12a645b7/08_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/嫦娥奔月-12a645b7/08_color.png"
+      }
+    },
+    {
+      "id": "09",
+      "duration_sec": 4.7,
+      "text": "她飞过屋顶，飞过最高的山。",
+      "narration": "她飞过屋顶，飞过最高的山。",
+      "visual": "使用“情绪叙事淡彩速写”绘制一个单一、清楚、可画的故事场景：她飞过屋顶，飞过最高的山。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "靛蓝与灰蓝为主，透明淡彩和大片纸白，全画只有一处柔和暖橙重点。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/嫦娥奔月-12a645b7/09_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/嫦娥奔月-12a645b7/09_color.png"
+      }
+    },
+    {
+      "id": "10",
+      "duration_sec": 5.3,
+      "text": "从此每到月圆，\n人间都抬头看。",
+      "narration": "从此每到月圆，人间都抬头看。",
+      "visual": "使用“情绪叙事淡彩速写”绘制一个单一、清楚、可画的故事场景：从此每到月圆，人间都抬头看。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "靛蓝与灰蓝为主，透明淡彩和大片纸白，全画只有一处柔和暖橙重点。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/嫦娥奔月-12a645b7/10_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/嫦娥奔月-12a645b7/10_color.png"
+      }
+    }
+  ]
+}
