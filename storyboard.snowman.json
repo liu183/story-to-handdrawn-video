@@ -21,7 +21,7 @@
     "style_library_version": 1,
     "style_fingerprint": "c7c599b68c744ef2",
     "style_lock": "当代暖色扁平绘本，用少量大而圆润的几何色块构成人物和道具。形状主要靠色彩相接，不画连续外轮廓；只在五官、手指和少量发丝处使用极细深藏青线。\n人物不是 Q 版：成人可有长颈、细长肢体、窄椭圆脸或宽胶囊躯干，动作弧线柔软；阴影只允许每个大色块一块更深的同色色形，不做渐变。主体集中在中下部，约七成暖白留白。\n严格使用深藏青、雾蓝、珊瑚橙、金橙、暖桃肤色和暖白；不要企业矢量小人、圆脸萌娃、厚描边、3D、光泽、复杂背景或额外色相。",
-    "character_lock": "重复出现的主角须保持同一张脸、发型、年龄、服装配色和身体比例；具体人物身份以故事原文为准；不得添加原文未提及的配角、道具或文字",
+    "character_lock": "固定主角两个：雪人由三个圆钝雪堆叠成，头顶一顶橙色小桶当帽子、脸上一根胡萝卜鼻、两根细树枝手臂、两颗黑豆眼，只使用白与极浅灰；小鸟是圆胖的橙色小雀、尖喙、短尾。两者的造型、配色与比例在所有场景必须一致。不得出现其他人物或动物，不得添加文字。",
     "audio": {
       "voiceover": "post",
       "bgm": "optional_bed_only",
@@ -45,9 +45,9 @@
       "detail_hint": null,
       "assets": {
         "text_image": null,
-        "bw": "assets/generated/codex/雪人要去南方-b63e16e9/01_bw.png",
+        "bw": "assets/generated/codex/雪人要去南方-27daf88a/01_bw.png",
         "detail": null,
-        "color": "assets/generated/codex/雪人要去南方-b63e16e9/01_color.png"
+        "color": "assets/generated/codex/雪人要去南方-27daf88a/01_color.png"
       }
     },
     {
@@ -66,9 +66,9 @@
       "detail_hint": null,
       "assets": {
         "text_image": null,
-        "bw": "assets/generated/codex/雪人要去南方-b63e16e9/02_bw.png",
+        "bw": "assets/generated/codex/雪人要去南方-27daf88a/02_bw.png",
         "detail": null,
-        "color": "assets/generated/codex/雪人要去南方-b63e16e9/02_color.png"
+        "color": "assets/generated/codex/雪人要去南方-27daf88a/02_color.png"
       }
     },
     {
@@ -87,9 +87,9 @@
       "detail_hint": null,
       "assets": {
         "text_image": null,
-        "bw": "assets/generated/codex/雪人要去南方-b63e16e9/03_bw.png",
+        "bw": "assets/generated/codex/雪人要去南方-27daf88a/03_bw.png",
         "detail": null,
-        "color": "assets/generated/codex/雪人要去南方-b63e16e9/03_color.png"
+        "color": "assets/generated/codex/雪人要去南方-27daf88a/03_color.png"
       }
     },
     {
@@ -108,9 +108,9 @@
       "detail_hint": null,
       "assets": {
         "text_image": null,
-        "bw": "assets/generated/codex/雪人要去南方-b63e16e9/04_bw.png",
+        "bw": "assets/generated/codex/雪人要去南方-27daf88a/04_bw.png",
         "detail": null,
-        "color": "assets/generated/codex/雪人要去南方-b63e16e9/04_color.png"
+        "color": "assets/generated/codex/雪人要去南方-27daf88a/04_color.png"
       }
     },
     {
@@ -129,9 +129,9 @@
       "detail_hint": null,
       "assets": {
         "text_image": null,
-        "bw": "assets/generated/codex/雪人要去南方-b63e16e9/05_bw.png",
+        "bw": "assets/generated/codex/雪人要去南方-27daf88a/05_bw.png",
         "detail": null,
-        "color": "assets/generated/codex/雪人要去南方-b63e16e9/05_color.png"
+        "color": "assets/generated/codex/雪人要去南方-27daf88a/05_color.png"
       }
     },
     {
@@ -150,9 +150,9 @@
       "detail_hint": null,
       "assets": {
         "text_image": null,
-        "bw": "assets/generated/codex/雪人要去南方-b63e16e9/06_bw.png",
+        "bw": "assets/generated/codex/雪人要去南方-27daf88a/06_bw.png",
         "detail": null,
-        "color": "assets/generated/codex/雪人要去南方-b63e16e9/06_color.png"
+        "color": "assets/generated/codex/雪人要去南方-27daf88a/06_color.png"
       }
     },
     {
@@ -171,9 +171,9 @@
       "detail_hint": null,
       "assets": {
         "text_image": null,
-        "bw": "assets/generated/codex/雪人要去南方-b63e16e9/07_bw.png",
+        "bw": "assets/generated/codex/雪人要去南方-27daf88a/07_bw.png",
         "detail": null,
-        "color": "assets/generated/codex/雪人要去南方-b63e16e9/07_color.png"
+        "color": "assets/generated/codex/雪人要去南方-27daf88a/07_color.png"
       }
     },
     {
@@ -192,9 +192,9 @@
       "detail_hint": null,
       "assets": {
         "text_image": null,
-        "bw": "assets/generated/codex/雪人要去南方-b63e16e9/08_bw.png",
+        "bw": "assets/generated/codex/雪人要去南方-27daf88a/08_bw.png",
         "detail": null,
-        "color": "assets/generated/codex/雪人要去南方-b63e16e9/08_color.png"
+        "color": "assets/generated/codex/雪人要去南方-27daf88a/08_color.png"
       }
     },
     {
@@ -213,9 +213,9 @@
       "detail_hint": null,
       "assets": {
         "text_image": null,
-        "bw": "assets/generated/codex/雪人要去南方-b63e16e9/09_bw.png",
+        "bw": "assets/generated/codex/雪人要去南方-27daf88a/09_bw.png",
         "detail": null,
-        "color": "assets/generated/codex/雪人要去南方-b63e16e9/09_color.png"
+        "color": "assets/generated/codex/雪人要去南方-27daf88a/09_color.png"
       }
     },
     {
@@ -234,9 +234,9 @@
       "detail_hint": null,
       "assets": {
         "text_image": null,
-        "bw": "assets/generated/codex/雪人要去南方-b63e16e9/10_bw.png",
+        "bw": "assets/generated/codex/雪人要去南方-27daf88a/10_bw.png",
         "detail": null,
-        "color": "assets/generated/codex/雪人要去南方-b63e16e9/10_color.png"
+        "color": "assets/generated/codex/雪人要去南方-27daf88a/10_color.png"
       }
     }
   ]

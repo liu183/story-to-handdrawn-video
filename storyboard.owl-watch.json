@@ -21,7 +21,7 @@
     "style_library_version": 1,
     "style_fingerprint": "46336887fef2054d",
     "style_lock": "富有表现力的绘本角色插画：自信而松散的墨线覆盖在干净透亮的淡彩上。线条略有粗细变化，保留少量重叠起稿线；不同区域用本地色更深的线色，而不是整图死黑。\n头发顺着体积画出流畅细线和适量飞丝；排线只作为腮红、鼻梁、帽子或衣服暗部的稀疏点缀，绝不能铺满色块。背景是一块低细节水彩刷痕，四周留出平整暖奶油纸边并带粗糙毛刷边界。\n上色保持明亮、轻薄、平滑，不做灰扑扑彩铅填色、满页排线、乱麻线、厚重油画或照片写实。",
-    "character_lock": "重复出现的主角须保持同一张脸、发型、年龄、服装配色和身体比例；具体人物身份以故事原文为准；不得添加原文未提及的配角、道具或文字",
+    "character_lock": "固定主角两个：猫头鹰体型圆胖、两只大圆眼、头顶两撮小羽冠、墨线勾出的翅羽，只上淡青灰一色；小兔子是小巧的浅灰白兔、长耳、鼻头一点浅粉。两者的造型、比例与配色在所有场景必须一致。不得出现其他人物或动物，不得添加文字。",
     "audio": {
       "voiceover": "post",
       "bgm": "optional_bed_only",
@@ -45,9 +45,9 @@
       "detail_hint": null,
       "assets": {
         "text_image": null,
-        "bw": "assets/generated/codex/猫头鹰守夜人-5e1f4ac7/01_bw.png",
+        "bw": "assets/generated/codex/猫头鹰守夜人-603d126e/01_bw.png",
         "detail": null,
-        "color": "assets/generated/codex/猫头鹰守夜人-5e1f4ac7/01_color.png"
+        "color": "assets/generated/codex/猫头鹰守夜人-603d126e/01_color.png"
       }
     },
     {
@@ -66,9 +66,9 @@
       "detail_hint": null,
       "assets": {
         "text_image": null,
-        "bw": "assets/generated/codex/猫头鹰守夜人-5e1f4ac7/02_bw.png",
+        "bw": "assets/generated/codex/猫头鹰守夜人-603d126e/02_bw.png",
         "detail": null,
-        "color": "assets/generated/codex/猫头鹰守夜人-5e1f4ac7/02_color.png"
+        "color": "assets/generated/codex/猫头鹰守夜人-603d126e/02_color.png"
       }
     },
     {
@@ -87,9 +87,9 @@
       "detail_hint": null,
       "assets": {
         "text_image": null,
-        "bw": "assets/generated/codex/猫头鹰守夜人-5e1f4ac7/03_bw.png",
+        "bw": "assets/generated/codex/猫头鹰守夜人-603d126e/03_bw.png",
         "detail": null,
-        "color": "assets/generated/codex/猫头鹰守夜人-5e1f4ac7/03_color.png"
+        "color": "assets/generated/codex/猫头鹰守夜人-603d126e/03_color.png"
       }
     },
     {
@@ -108,9 +108,9 @@
       "detail_hint": null,
       "assets": {
         "text_image": null,
-        "bw": "assets/generated/codex/猫头鹰守夜人-5e1f4ac7/04_bw.png",
+        "bw": "assets/generated/codex/猫头鹰守夜人-603d126e/04_bw.png",
         "detail": null,
-        "color": "assets/generated/codex/猫头鹰守夜人-5e1f4ac7/04_color.png"
+        "color": "assets/generated/codex/猫头鹰守夜人-603d126e/04_color.png"
       }
     },
     {
@@ -129,9 +129,9 @@
       "detail_hint": null,
       "assets": {
         "text_image": null,
-        "bw": "assets/generated/codex/猫头鹰守夜人-5e1f4ac7/05_bw.png",
+        "bw": "assets/generated/codex/猫头鹰守夜人-603d126e/05_bw.png",
         "detail": null,
-        "color": "assets/generated/codex/猫头鹰守夜人-5e1f4ac7/05_color.png"
+        "color": "assets/generated/codex/猫头鹰守夜人-603d126e/05_color.png"
       }
     },
     {
@@ -150,9 +150,9 @@
       "detail_hint": null,
       "assets": {
         "text_image": null,
-        "bw": "assets/generated/codex/猫头鹰守夜人-5e1f4ac7/06_bw.png",
+        "bw": "assets/generated/codex/猫头鹰守夜人-603d126e/06_bw.png",
         "detail": null,
-        "color": "assets/generated/codex/猫头鹰守夜人-5e1f4ac7/06_color.png"
+        "color": "assets/generated/codex/猫头鹰守夜人-603d126e/06_color.png"
       }
     },
     {
@@ -171,9 +171,9 @@
       "detail_hint": null,
       "assets": {
         "text_image": null,
-        "bw": "assets/generated/codex/猫头鹰守夜人-5e1f4ac7/07_bw.png",
+        "bw": "assets/generated/codex/猫头鹰守夜人-603d126e/07_bw.png",
         "detail": null,
-        "color": "assets/generated/codex/猫头鹰守夜人-5e1f4ac7/07_color.png"
+        "color": "assets/generated/codex/猫头鹰守夜人-603d126e/07_color.png"
       }
     },
     {
@@ -192,9 +192,9 @@
       "detail_hint": null,
       "assets": {
         "text_image": null,
-        "bw": "assets/generated/codex/猫头鹰守夜人-5e1f4ac7/08_bw.png",
+        "bw": "assets/generated/codex/猫头鹰守夜人-603d126e/08_bw.png",
         "detail": null,
-        "color": "assets/generated/codex/猫头鹰守夜人-5e1f4ac7/08_color.png"
+        "color": "assets/generated/codex/猫头鹰守夜人-603d126e/08_color.png"
       }
     },
     {
@@ -213,9 +213,9 @@
       "detail_hint": null,
       "assets": {
         "text_image": null,
-        "bw": "assets/generated/codex/猫头鹰守夜人-5e1f4ac7/09_bw.png",
+        "bw": "assets/generated/codex/猫头鹰守夜人-603d126e/09_bw.png",
         "detail": null,
-        "color": "assets/generated/codex/猫头鹰守夜人-5e1f4ac7/09_color.png"
+        "color": "assets/generated/codex/猫头鹰守夜人-603d126e/09_color.png"
       }
     },
     {
@@ -234,9 +234,9 @@
       "detail_hint": null,
       "assets": {
         "text_image": null,
-        "bw": "assets/generated/codex/猫头鹰守夜人-5e1f4ac7/10_bw.png",
+        "bw": "assets/generated/codex/猫头鹰守夜人-603d126e/10_bw.png",
         "detail": null,
-        "color": "assets/generated/codex/猫头鹰守夜人-5e1f4ac7/10_color.png"
+        "color": "assets/generated/codex/猫头鹰守夜人-603d126e/10_color.png"
       }
     }
   ]
