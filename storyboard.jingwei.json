@@ -1,0 +1,243 @@
+{
+  "project": {
+    "title": "精卫填海",
+    "mode": "speed",
+    "images_per_scene": 1,
+    "derive_bw": "local",
+    "enable_detail": false,
+    "gen_size": 1024,
+    "export_size": [
+      1080,
+      1440
+    ],
+    "ratio": "3:4",
+    "width": 1080,
+    "height": 1440,
+    "fps": 30,
+    "transition": "cut",
+    "transition_sec": 0.7,
+    "style_id": "ink-wash",
+    "style_name": "水墨写意",
+    "style_library_version": 1,
+    "style_fingerprint": "5a7d9210946b9ccb",
+    "style_lock": "中国传统写意水墨画，画在明亮生宣纸上。以黑墨为主，同一画面同时出现焦、浓、重、淡、清，笔内有明显浓淡干湿变化。\n用寥寥几笔抓住动作和神态，保留飞白枯笔、断笔、湿墨自然洇化与少量偶然飞溅；主体偏置，大量空白宣纸参与构图。最多用极少淡赭石或花青点染，并在角落放一枚无可读文字的小朱红印记。\n不是数字灰度滤镜，不勾死板轮廓，不均匀填色，不做写实摄影、艳丽彩绘、厚涂或密集背景。",
+    "character_lock": "主角是一只叫精卫的小水鸟：黑白两色、短喙、头顶一撮朱红花纹、圆眼短尾，体型在画面里只有一个墨点大小；女娃是梳双髻、穿素色短衣的小女孩。全片只出现精卫与女娃，不得出现其他人物或鸟兽，不得出现文字或印章。",
+    "audio": {
+      "voiceover": "post",
+      "bgm": "optional_bed_only",
+      "bgm_follows_text": false
+    }
+  },
+  "scenes": [
+    {
+      "id": "01",
+      "duration_sec": 5.3,
+      "text": "在东海的边上，\n有个叫女娃的女孩。",
+      "narration": "在东海的边上，有个叫女娃的女孩。",
+      "visual": "使用“水墨写意”绘制一个单一、清楚、可画的故事场景：在东海的边上，有个叫女娃的女孩。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "黑墨浓淡干湿为主，最多淡赭石或花青点染，加一处小朱红印记。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/精卫填海-78a21c84/01_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/精卫填海-78a21c84/01_color.png"
+      }
+    },
+    {
+      "id": "02",
+      "duration_sec": 5.3,
+      "text": "她最喜欢看海，\n一看就是半天。",
+      "narration": "她最喜欢看海，一看就是半天。",
+      "visual": "使用“水墨写意”绘制一个单一、清楚、可画的故事场景：她最喜欢看海，一看就是半天。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "黑墨浓淡干湿为主，最多淡赭石或花青点染，加一处小朱红印记。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/精卫填海-78a21c84/02_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/精卫填海-78a21c84/02_color.png"
+      }
+    },
+    {
+      "id": "03",
+      "duration_sec": 4.7,
+      "text": "有一天，海上起了大风浪。",
+      "narration": "有一天，海上起了大风浪。",
+      "visual": "使用“水墨写意”绘制一个单一、清楚、可画的故事场景：有一天，海上起了大风浪。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "黑墨浓淡干湿为主，最多淡赭石或花青点染，加一处小朱红印记。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/精卫填海-78a21c84/03_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/精卫填海-78a21c84/03_color.png"
+      }
+    },
+    {
+      "id": "04",
+      "duration_sec": 5.3,
+      "text": "女娃的小船，\n被浪卷进了海里。",
+      "narration": "女娃的小船，被浪卷进了海里。",
+      "visual": "使用“水墨写意”绘制一个单一、清楚、可画的故事场景：女娃的小船，被浪卷进了海里。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "黑墨浓淡干湿为主，最多淡赭石或花青点染，加一处小朱红印记。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/精卫填海-78a21c84/04_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/精卫填海-78a21c84/04_color.png"
+      }
+    },
+    {
+      "id": "05",
+      "duration_sec": 4.7,
+      "text": "第二天，海上飞来一只小鸟。",
+      "narration": "第二天，海上飞来一只小鸟。",
+      "visual": "使用“水墨写意”绘制一个单一、清楚、可画的故事场景：第二天，海上飞来一只小鸟。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "黑墨浓淡干湿为主，最多淡赭石或花青点染，加一处小朱红印记。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/精卫填海-78a21c84/05_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/精卫填海-78a21c84/05_color.png"
+      }
+    },
+    {
+      "id": "06",
+      "duration_sec": 5.3,
+      "text": "它的头上有花纹，\n叫声像在喊。",
+      "narration": "它的头上有花纹，叫声像在喊。",
+      "visual": "使用“水墨写意”绘制一个单一、清楚、可画的故事场景：它的头上有花纹，叫声像在喊。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "黑墨浓淡干湿为主，最多淡赭石或花青点染，加一处小朱红印记。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/精卫填海-78a21c84/06_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/精卫填海-78a21c84/06_color.png"
+      }
+    },
+    {
+      "id": "07",
+      "duration_sec": 4.7,
+      "text": "人们叫它精卫，是女娃变的。",
+      "narration": "人们叫它精卫，是女娃变的。",
+      "visual": "使用“水墨写意”绘制一个单一、清楚、可画的故事场景：人们叫它精卫，是女娃变的。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "黑墨浓淡干湿为主，最多淡赭石或花青点染，加一处小朱红印记。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/精卫填海-78a21c84/07_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/精卫填海-78a21c84/07_color.png"
+      }
+    },
+    {
+      "id": "08",
+      "duration_sec": 5.3,
+      "text": "精卫每天衔来小石子，\n丢进海里。",
+      "narration": "精卫每天衔来小石子，丢进海里。",
+      "visual": "使用“水墨写意”绘制一个单一、清楚、可画的故事场景：精卫每天衔来小石子，丢进海里。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "黑墨浓淡干湿为主，最多淡赭石或花青点染，加一处小朱红印记。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/精卫填海-78a21c84/08_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/精卫填海-78a21c84/08_color.png"
+      }
+    },
+    {
+      "id": "09",
+      "duration_sec": 4.7,
+      "text": "大海笑它：你填不满我的。",
+      "narration": "大海笑它：你填不满我的。",
+      "visual": "使用“水墨写意”绘制一个单一、清楚、可画的故事场景：大海笑它：你填不满我的。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "黑墨浓淡干湿为主，最多淡赭石或花青点染，加一处小朱红印记。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/精卫填海-78a21c84/09_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/精卫填海-78a21c84/09_color.png"
+      }
+    },
+    {
+      "id": "10",
+      "duration_sec": 5.3,
+      "text": "很多年过去了，海还在，\n鸟还在飞。",
+      "narration": "很多年过去了，海还在，鸟还在飞。",
+      "visual": "使用“水墨写意”绘制一个单一、清楚、可画的故事场景：很多年过去了，海还在，鸟还在飞。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "黑墨浓淡干湿为主，最多淡赭石或花青点染，加一处小朱红印记。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/精卫填海-78a21c84/10_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/精卫填海-78a21c84/10_color.png"
+      }
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "project": {
+    "title": "旧钟里的夏天",
+    "mode": "speed",
+    "images_per_scene": 1,
+    "derive_bw": "local",
+    "enable_detail": false,
+    "gen_size": 1024,
+    "export_size": [
+      1080,
+      1440
+    ],
+    "ratio": "3:4",
+    "width": 1080,
+    "height": 1440,
+    "fps": 30,
+    "transition": "cut",
+    "transition_sec": 0.7,
+    "style_id": "retro-gouache-concept",
+    "style_name": "中古动画水粉概念稿",
+    "style_library_version": 1,
+    "style_fingerprint": "988aff1a789f9496",
+    "style_lock": "复古二维动画的手绘水粉概念稿，画在暖奶油色纸底上。保留松散铅笔起稿线，用哑光不透明水粉概括人物、道具和背景大形，边缘能看到干刷与笔触。\n构图有一个清楚焦点，形状简化而表演生动；用受控的橙蓝互补色、奶油黄、砖红和灰蓝，光线柔暖，背景像舞台布景般概括，不堆小细节。\n保持旧动画美术设定稿的手工感；不要现代动漫五官、光滑数字厚涂、3D、照片写实、荧光色或细碎纹理。",
+    "character_lock": "固定主角两人：爷爷约七十岁，花白短发、白胡茬、圆框眼镜，穿深棕毛呢马甲、浅色衬衫、系布围裙；男孩约七岁，圆脸、齐耳短发，穿藏青短上衣与短裤。两人的脸型、发型、年龄、服装配色与身体比例在所有场景必须一致；旧木钟固定为方形木壳、暖橙钟面、黄铜钟摆。不得添加原文未提及的人物、道具或文字。",
+    "audio": {
+      "voiceover": "post",
+      "bgm": "optional_bed_only",
+      "bgm_follows_text": false
+    }
+  },
+  "scenes": [
+    {
+      "id": "01",
+      "duration_sec": 5.3,
+      "text": "小镇的街角，\n有一家小小的钟表铺。",
+      "narration": "小镇的街角，有一家小小的钟表铺。",
+      "visual": "使用“中古动画水粉概念稿”绘制一个单一、清楚、可画的故事场景：小镇的街角，有一家小小的钟表铺。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "暖奶油底，受控橙蓝互补，辅以砖红、灰蓝；哑光不透明水粉块面与干刷边缘。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/旧钟里的夏天-738af2ab/01_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/旧钟里的夏天-738af2ab/01_color.png"
+      }
+    },
+    {
+      "id": "02",
+      "duration_sec": 5.4,
+      "text": "铺子的主人，\n是一位头发花白的爷爷。",
+      "narration": "铺子的主人，是一位头发花白的爷爷。",
+      "visual": "使用“中古动画水粉概念稿”绘制一个单一、清楚、可画的故事场景：铺子的主人，是一位头发花白的爷爷。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "暖奶油底，受控橙蓝互补，辅以砖红、灰蓝；哑光不透明水粉块面与干刷边缘。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/旧钟里的夏天-738af2ab/02_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/旧钟里的夏天-738af2ab/02_color.png"
+      }
+    },
+    {
+      "id": "03",
+      "duration_sec": 5.4,
+      "text": "柜台的角落，\n摆着一只走得很慢的旧木钟。",
+      "narration": "柜台的角落，摆着一只走得很慢的旧木钟。",
+      "visual": "使用“中古动画水粉概念稿”绘制一个单一、清楚、可画的故事场景：柜台的角落，摆着一只走得很慢的旧木钟。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "暖奶油底，受控橙蓝互补，辅以砖红、灰蓝；哑光不透明水粉块面与干刷边缘。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/旧钟里的夏天-738af2ab/03_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/旧钟里的夏天-738af2ab/03_color.png"
+      }
+    },
+    {
+      "id": "04",
+      "duration_sec": 5.3,
+      "text": "男孩每天放学都来，\n趴在柜台上看。",
+      "narration": "男孩每天放学都来，趴在柜台上看。",
+      "visual": "使用“中古动画水粉概念稿”绘制一个单一、清楚、可画的故事场景：男孩每天放学都来，趴在柜台上看。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "暖奶油底，受控橙蓝互补，辅以砖红、灰蓝；哑光不透明水粉块面与干刷边缘。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/旧钟里的夏天-738af2ab/04_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/旧钟里的夏天-738af2ab/04_color.png"
+      }
+    },
+    {
+      "id": "05",
+      "duration_sec": 5.4,
+      "text": "爷爷教他听：\n钟摆的声音像在数夏天。",
+      "narration": "爷爷教他听：钟摆的声音像在数夏天。",
+      "visual": "使用“中古动画水粉概念稿”绘制一个单一、清楚、可画的故事场景：爷爷教他听：钟摆的声音像在数夏天。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "暖奶油底，受控橙蓝互补，辅以砖红、灰蓝；哑光不透明水粉块面与干刷边缘。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/旧钟里的夏天-738af2ab/05_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/旧钟里的夏天-738af2ab/05_color.png"
+      }
+    },
+    {
+      "id": "06",
+      "duration_sec": 5.4,
+      "text": "那年夏天特别长，\n蝉叫得整条街都困了。",
+      "narration": "那年夏天特别长，蝉叫得整条街都困了。",
+      "visual": "使用“中古动画水粉概念稿”绘制一个单一、清楚、可画的故事场景：那年夏天特别长，蝉叫得整条街都困了。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "暖奶油底，受控橙蓝互补，辅以砖红、灰蓝；哑光不透明水粉块面与干刷边缘。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/旧钟里的夏天-738af2ab/06_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/旧钟里的夏天-738af2ab/06_color.png"
+      }
+    },
+    {
+      "id": "07",
+      "duration_sec": 5.4,
+      "text": "有一天，木钟停了，\n爷爷只是笑了笑。",
+      "narration": "有一天，木钟停了，爷爷只是笑了笑。",
+      "visual": "使用“中古动画水粉概念稿”绘制一个单一、清楚、可画的故事场景：有一天，木钟停了，爷爷只是笑了笑。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "暖奶油底，受控橙蓝互补，辅以砖红、灰蓝；哑光不透明水粉块面与干刷边缘。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/旧钟里的夏天-738af2ab/07_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/旧钟里的夏天-738af2ab/07_color.png"
+      }
+    },
+    {
+      "id": "08",
+      "duration_sec": 5.3,
+      "text": "爷爷把螺丝刀，\n放进男孩的手心里。",
+      "narration": "爷爷把螺丝刀，放进男孩的手心里。",
+      "visual": "使用“中古动画水粉概念稿”绘制一个单一、清楚、可画的故事场景：爷爷把螺丝刀，放进男孩的手心里。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "暖奶油底，受控橙蓝互补，辅以砖红、灰蓝；哑光不透明水粉块面与干刷边缘。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/旧钟里的夏天-738af2ab/08_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/旧钟里的夏天-738af2ab/08_color.png"
+      }
+    },
+    {
+      "id": "09",
+      "duration_sec": 5.4,
+      "text": "男孩拧开后盖，\n看见里面落了一层薄灰。",
+      "narration": "男孩拧开后盖，看见里面落了一层薄灰。",
+      "visual": "使用“中古动画水粉概念稿”绘制一个单一、清楚、可画的故事场景：男孩拧开后盖，看见里面落了一层薄灰。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "暖奶油底，受控橙蓝互补，辅以砖红、灰蓝；哑光不透明水粉块面与干刷边缘。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/旧钟里的夏天-738af2ab/09_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/旧钟里的夏天-738af2ab/09_color.png"
+      }
+    },
+    {
+      "id": "10",
+      "duration_sec": 5.5,
+      "text": "他轻轻擦干净，钟又走了，\n夏天却已经过去。",
+      "narration": "他轻轻擦干净，钟又走了，夏天却已经过去。",
+      "visual": "使用“中古动画水粉概念稿”绘制一个单一、清楚、可画的故事场景：他轻轻擦干净，钟又走了，夏天却已经过去。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "暖奶油底，受控橙蓝互补，辅以砖红、灰蓝；哑光不透明水粉块面与干刷边缘。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/旧钟里的夏天-738af2ab/10_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/旧钟里的夏天-738af2ab/10_color.png"
+      }
+    }
+  ]
+}

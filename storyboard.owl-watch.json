@@ -1,0 +1,243 @@
+{
+  "project": {
+    "title": "猫头鹰守夜人",
+    "mode": "speed",
+    "images_per_scene": 1,
+    "derive_bw": "local",
+    "enable_detail": false,
+    "gen_size": 1024,
+    "export_size": [
+      1080,
+      1440
+    ],
+    "ratio": "3:4",
+    "width": 1080,
+    "height": 1440,
+    "fps": 30,
+    "transition": "cut",
+    "transition_sec": 0.7,
+    "style_id": "inked-storybook",
+    "style_name": "墨线淡彩绘本",
+    "style_library_version": 1,
+    "style_fingerprint": "46336887fef2054d",
+    "style_lock": "富有表现力的绘本角色插画：自信而松散的墨线覆盖在干净透亮的淡彩上。线条略有粗细变化，保留少量重叠起稿线；不同区域用本地色更深的线色，而不是整图死黑。\n头发顺着体积画出流畅细线和适量飞丝；排线只作为腮红、鼻梁、帽子或衣服暗部的稀疏点缀，绝不能铺满色块。背景是一块低细节水彩刷痕，四周留出平整暖奶油纸边并带粗糙毛刷边界。\n上色保持明亮、轻薄、平滑，不做灰扑扑彩铅填色、满页排线、乱麻线、厚重油画或照片写实。",
+    "character_lock": "固定主角两个：猫头鹰体型圆胖、两只大圆眼、头顶两撮小羽冠、墨线勾出的翅羽，只上淡青灰一色；小兔子是小巧的浅灰白兔、长耳、鼻头一点浅粉。两者的造型、比例与配色在所有场景必须一致。不得出现其他人物或动物，不得添加文字。",
+    "audio": {
+      "voiceover": "post",
+      "bgm": "optional_bed_only",
+      "bgm_follows_text": false
+    }
+  },
+  "scenes": [
+    {
+      "id": "01",
+      "duration_sec": 5.3,
+      "text": "森林睡着以后，\n猫头鹰才开始上班。",
+      "narration": "森林睡着以后，猫头鹰才开始上班。",
+      "visual": "使用“墨线淡彩绘本”绘制一个单一、清楚、可画的故事场景：森林睡着以后，猫头鹰才开始上班。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "每图选择 2–4 个协调淡彩；线色随本地色变化，排线仅作局部点缀，背景为单一水彩刷痕。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/猫头鹰守夜人-603d126e/01_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/猫头鹰守夜人-603d126e/01_color.png"
+      }
+    },
+    {
+      "id": "02",
+      "duration_sec": 5.4,
+      "text": "它站在最高的那根树枝上，\n睁着圆眼睛。",
+      "narration": "它站在最高的那根树枝上，睁着圆眼睛。",
+      "visual": "使用“墨线淡彩绘本”绘制一个单一、清楚、可画的故事场景：它站在最高的那根树枝上，睁着圆眼睛。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "每图选择 2–4 个协调淡彩；线色随本地色变化，排线仅作局部点缀，背景为单一水彩刷痕。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/猫头鹰守夜人-603d126e/02_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/猫头鹰守夜人-603d126e/02_color.png"
+      }
+    },
+    {
+      "id": "03",
+      "duration_sec": 5.4,
+      "text": "小兔子睡不着，\n说夜里全是可怕的声音。",
+      "narration": "小兔子睡不着，说夜里全是可怕的声音。",
+      "visual": "使用“墨线淡彩绘本”绘制一个单一、清楚、可画的故事场景：小兔子睡不着，说夜里全是可怕的声音。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "每图选择 2–4 个协调淡彩；线色随本地色变化，排线仅作局部点缀，背景为单一水彩刷痕。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/猫头鹰守夜人-603d126e/03_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/猫头鹰守夜人-603d126e/03_color.png"
+      }
+    },
+    {
+      "id": "04",
+      "duration_sec": 5.3,
+      "text": "猫头鹰带它听：\n那是风穿过树洞。",
+      "narration": "猫头鹰带它听：那是风穿过树洞。",
+      "visual": "使用“墨线淡彩绘本”绘制一个单一、清楚、可画的故事场景：猫头鹰带它听：那是风穿过树洞。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "每图选择 2–4 个协调淡彩；线色随本地色变化，排线仅作局部点缀，背景为单一水彩刷痕。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/猫头鹰守夜人-603d126e/04_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/猫头鹰守夜人-603d126e/04_color.png"
+      }
+    },
+    {
+      "id": "05",
+      "duration_sec": 4.7,
+      "text": "那是溪水翻过石头的声音。",
+      "narration": "那是溪水翻过石头的声音。",
+      "visual": "使用“墨线淡彩绘本”绘制一个单一、清楚、可画的故事场景：那是溪水翻过石头的声音。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "每图选择 2–4 个协调淡彩；线色随本地色变化，排线仅作局部点缀，背景为单一水彩刷痕。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/猫头鹰守夜人-603d126e/05_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/猫头鹰守夜人-603d126e/05_color.png"
+      }
+    },
+    {
+      "id": "06",
+      "duration_sec": 5.3,
+      "text": "那是果子熟透了，\n轻轻落进草里。",
+      "narration": "那是果子熟透了，轻轻落进草里。",
+      "visual": "使用“墨线淡彩绘本”绘制一个单一、清楚、可画的故事场景：那是果子熟透了，轻轻落进草里。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "每图选择 2–4 个协调淡彩；线色随本地色变化，排线仅作局部点缀，背景为单一水彩刷痕。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/猫头鹰守夜人-603d126e/06_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/猫头鹰守夜人-603d126e/06_color.png"
+      }
+    },
+    {
+      "id": "07",
+      "duration_sec": 5.3,
+      "text": "小兔子数着数着，\n呼吸慢了下来。",
+      "narration": "小兔子数着数着，呼吸慢了下来。",
+      "visual": "使用“墨线淡彩绘本”绘制一个单一、清楚、可画的故事场景：小兔子数着数着，呼吸慢了下来。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "每图选择 2–4 个协调淡彩；线色随本地色变化，排线仅作局部点缀，背景为单一水彩刷痕。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/猫头鹰守夜人-603d126e/07_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/猫头鹰守夜人-603d126e/07_color.png"
+      }
+    },
+    {
+      "id": "08",
+      "duration_sec": 5.4,
+      "text": "天快亮时，猫头鹰说：\n害怕是因为没听完。",
+      "narration": "天快亮时，猫头鹰说：害怕是因为没听完。",
+      "visual": "使用“墨线淡彩绘本”绘制一个单一、清楚、可画的故事场景：天快亮时，猫头鹰说：害怕是因为没听完。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "每图选择 2–4 个协调淡彩；线色随本地色变化，排线仅作局部点缀，背景为单一水彩刷痕。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/猫头鹰守夜人-603d126e/08_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/猫头鹰守夜人-603d126e/08_color.png"
+      }
+    },
+    {
+      "id": "09",
+      "duration_sec": 5.4,
+      "text": "第一缕光爬上树梢，\n森林换了守夜人。",
+      "narration": "第一缕光爬上树梢，森林换了守夜人。",
+      "visual": "使用“墨线淡彩绘本”绘制一个单一、清楚、可画的故事场景：第一缕光爬上树梢，森林换了守夜人。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "每图选择 2–4 个协调淡彩；线色随本地色变化，排线仅作局部点缀，背景为单一水彩刷痕。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/猫头鹰守夜人-603d126e/09_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/猫头鹰守夜人-603d126e/09_color.png"
+      }
+    },
+    {
+      "id": "10",
+      "duration_sec": 5.4,
+      "text": "小兔子醒来，\n把昨夜的声音讲给了白天。",
+      "narration": "小兔子醒来，把昨夜的声音讲给了白天。",
+      "visual": "使用“墨线淡彩绘本”绘制一个单一、清楚、可画的故事场景：小兔子醒来，把昨夜的声音讲给了白天。",
+      "shot": "story_beat",
+      "layers": [
+        "text",
+        "bw_full",
+        "color"
+      ],
+      "color_hint": "每图选择 2–4 个协调淡彩；线色随本地色变化，排线仅作局部点缀，背景为单一水彩刷痕。",
+      "detail_hint": null,
+      "assets": {
+        "text_image": null,
+        "bw": "assets/generated/codex/猫头鹰守夜人-603d126e/10_bw.png",
+        "detail": null,
+        "color": "assets/generated/codex/猫头鹰守夜人-603d126e/10_color.png"
+      }
+    }
+  ]
+}
